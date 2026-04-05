@@ -8,6 +8,7 @@ export default defineConfig({
     viewport: { width: 1280, height: 720 },
     actionTimeout: 10_000,
     navigationTimeout: 30_000,
+    screenshot: 'only-on-failure',
     trace: 'on-first-retry'
   },
   projects: [
