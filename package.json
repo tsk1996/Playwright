@@ -4,13 +4,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "npx playwright test",
+    "test": "ENV=qa npx playwright test",
+    "test:qa": "ENV=qa npx playwright test",
+    "test:dev": "ENV=dev npx playwright test",
+    "test:prod": "ENV=prod npx playwright test",
     "test:headed": "npx playwright test --headed",
     "test:ui": "npx playwright test --ui",
     "report": "npx playwright show-report",
     "install:browser": "npx playwright install"
   },
   "devDependencies": {
-    "@playwright/test": "^1.50.0"
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^25.5.2"
   }
 }
