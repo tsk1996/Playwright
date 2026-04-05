@@ -15,5 +15,6 @@ export default defineConfig({
       name: 'chromium',
       use: { browserName: 'chromium' }
     }
-  ]
+  ],
+  reporter: [['html', { open: 'never' }], ['line']]
 });

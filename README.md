@@ -30,7 +30,13 @@ A minimal Playwright test framework setup with a page load test.
   npm run test:headed
   ```
 
+- View HTML report (after running tests):
+
+  ```bash
+  npm run report
+  ```
+
 ## Test coverage
 
-- `tests/pageLoad.spec.ts` verifies that `https://example.com` loads and the page title contains `Example Domain`.
+- `tests/pageLoad.spec.ts` verifies that `https://www.google.com` loads, the page title contains `Google`, and the Google logo is visible.
 - `src/pages/HomePage.ts` is a simple page object for navigation and load-state validation.
