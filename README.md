@@ -1,5 +1,7 @@
 # SmaPlaywright Framework
 
+[![Playwright Tests](https://github.com/tharu/Playwright/workflows/Playwright%20Tests/badge.svg?branch=main)](https://github.com/tharu/Playwright/actions)
+
 A minimal Playwright test framework setup with a page load test.
 
 ## Setup
