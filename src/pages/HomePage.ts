@@ -6,7 +6,7 @@ export class HomePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.googleLogo = page.getByRole('img', { name: 'Google' });
+    this.googleLogo = page.locator('[aria-label="Google"]');
   }
   async goto(url: string) {
     await this.page.goto(url);
