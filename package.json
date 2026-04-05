@@ -1,0 +1,15 @@
+{
+  "name": "smaplaywright-framework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "install:browser": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}
