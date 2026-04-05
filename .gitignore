@@ -2,3 +2,5 @@ node_modules/
 .playwright/
 npm-debug.log*
 .env
+test-results/
+.vscode/
