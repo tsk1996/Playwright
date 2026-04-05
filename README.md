@@ -1,6 +1,6 @@
 # SmaPlaywright Framework
 
-[![Playwright Tests](https://github.com/tsk1996/Playwright/workflows/playwright.yml/badge.svg)](https://github.com/tsk1996/Playwright/actions)
+[![Playwright Tests](https://github.com/tsk1996/Playwright/workflows/Playwright%20Tests/badge.svg)](https://github.com/tsk1996/Playwright/actions)
 
 A minimal Playwright test framework setup with a page load test.
 
